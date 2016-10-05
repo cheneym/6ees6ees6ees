@@ -14,7 +14,7 @@ class HoneyMakerBee extends Bee {
   }
 
   giveHoney() {
-    if (honeyPot) { this.honeyPot--; }
+    if (this.honeyPot) { this.honeyPot--; }
   }
 };
 
